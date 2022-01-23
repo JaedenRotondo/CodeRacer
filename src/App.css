@@ -1,0 +1,188 @@
+/* Font Used: */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 3vh;
+}
+
+/* If something is used multiple times we can create a variable for it like that: */
+:root{
+    --primary-color: #007af3;
+}
+
+body{
+    background: white;
+    margin: 0;
+    font-family: 'Poppins'; /* Can find many font on fonts.google.com */
+}
+
+
+/* To control a class of navbar */
+.navbar{
+    background: white;
+    /* Kind of left margin: (margin in orange and pdding in green when inspect page) */
+    padding: 1em;
+}
+  
+.container{
+    display: flex;
+    place-content: space-between;
+}
+
+button{
+  padding:15px;
+  border: 10px white;
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+  font-size:18px;
+}
+
+button :hover{
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: #007af3;
+  font-size: 20px;
+}
+
+.section{
+  padding-bottom: 75px; 
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+.section1{
+  margin-left: 20px;
+  margin-right: 30px;
+  padding-bottom: 20px; 
+}
+
+.button-section{
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 20px; 
+  padding-right: 20px; 
+  border-color: black;
+  border: solid;
+  display: flex;
+  justify-content: space-between;
+}
+
+.code{
+  border: 3px solid;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 20px;
+  height: 400px;
+  text-align: left;
+}
+
+input{
+  width: 80%;
+  height: 40px;
+  font-size: 25px;
+
+}
+
+.Languages{
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Languages button{
+  width: 300px;
+  background-color: #42baff;
+}
+
+.Difficulty{
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Difficulty button{
+  width: 450px; 
+  background-color: #42baff;
+}
+
+.Stamina{
+  background-color: green;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 20px; 
+  padding-right: 20px;
+  border-radius: 20px;
+}
+
+.Stamina button{
+  background-color: green;
+  color: white;
+}
+
+.Warn{
+  background-color: grey;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 20px; 
+  padding-right: 20px;
+  border-radius: 20px;
+}
+
+.Warn button{
+  background-color: grey;
+}
+
+.End {
+  background-color: red;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 20px; 
+  padding-right: 20px;
+  border-radius: 20px;
+}
+
+.End button{
+  background-color: red;
+}
+
+.sprintSection {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 20px; 
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+.container {
+  position: relative;
+}
+
+.rocket {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.runner {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.Path {
+  color: black;
+  background-color: black;
+}

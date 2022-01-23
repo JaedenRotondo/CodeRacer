@@ -1,0 +1,20 @@
+{
+  "files": {
+    "src/App.jsx": [
+      {
+        "id": "d6e6348f-6e1d-46b4-aad6-128066d08b84",
+        "line": 281,
+        "version": 8088,
+        "index": 12375
+      }
+    ],
+    "src/components/topBar.jsx": [
+      {
+        "id": "576239c7-8ae0-4f50-aad0-a7874775e139",
+        "line": 4,
+        "version": 780,
+        "index": 71
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+.navBar {
+  display:flex;
+  justify-content: space-between;
+  padding: 2em;
+  background-color: white;
+}
+
+.Name{
+  padding-right: 10pm;
+}
+
+.icon {
+  align-self: flex-start;
+}
+
+.options {
+  align-self: flex-end;
+}
+
+.logoName{
+  color: #007af3;
+  font-size: 30px;
+  display: flex;
+  align-self: flex-start;
+}
+
+.logo{
+  height: 4vh;
+  width: 4vh;
+  padding-right: 325px;
+}
+
+.nav-links :hover{
+  font-size: 22px;
+  font-weight: bold;
+  transition:0.4s;
+}
+
+
+
+
