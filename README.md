@@ -1,5 +1,6 @@
 ###### Created by Jaeden Rotond, Zi Wang, Ismael Ridha and Androw Abd El Malak
 # McHacks 2022 Project: Type Racer
+https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/001/805/417/datas/original.jpg![image](https://user-images.githubusercontent.com/40248142/200059160-fb43acda-387c-4319-b383-c6480b4e7576.png)
 
 ## Inspiration
 - Many of us know what type of racer is, but for us developers, it's not that useful. We spend most of our days writing code, and we don't have a fun tool to use in order to practice our coding speed. That is why we have created Code Runner, a platform where all developers will be able to practice their coding speed and experience in the language of their choice while enjoying their time!
